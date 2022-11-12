@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Clone'){
              steps{  
-                 git branch: 'master', url: 'https://github.com/BenabidAhmedAmine/Devops.git'
+                 git branch: 'main', url: 'https://github.com/BenabidAhmedAmine/Devops.git'
              }
         }  
        stage('MVN CLEAN') {
